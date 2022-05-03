@@ -5,10 +5,7 @@ import os
 import traceback
 from datetime import datetime
 
-from dotenv import load_dotenv
 from discord.ext import commands
-
-load_dotenv()
 
 bot = discord.Client()  #Creates Client
 bot = commands.Bot(command_prefix='-')  #Sets prefix for commands(!Command)
